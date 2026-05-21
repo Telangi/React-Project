@@ -1,0 +1,168 @@
+.login-page {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1974&auto=format&fit=crop");
+
+  background-size: cover;
+  background-position: center;
+
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  backdrop-filter: blur(4px);
+}
+
+.login-form {
+  width: 400px;
+
+  padding: 40px;
+
+  background: rgba(20, 20, 20, 0.85);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.5);
+
+  backdrop-filter: blur(10px);
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+
+  position: relative;
+
+  z-index: 2;
+}
+
+.login-form h1 {
+  color: white;
+
+  text-align: center;
+
+  font-size: 38px;
+
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #cfcfcf;
+
+  text-align: center;
+
+  font-size: 14px;
+
+  margin-bottom: 15px;
+}
+
+.login-form input {
+  width: 100%;
+
+  padding: 14px 16px;
+
+  border: none;
+
+  outline: none;
+
+  border-radius: 12px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  color: white;
+
+  font-size: 15px;
+
+  transition: 0.3s ease;
+}
+
+.login-form input::placeholder {
+  color: #bdbdbd;
+}
+
+.login-form input:focus {
+  border: 1px solid #ff9800;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  box-shadow:
+    0 0 12px rgba(255, 152, 0, 0.4);
+}
+
+.login-form button {
+  width: 100%;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: linear-gradient(
+    135deg,
+    #ff3d00,
+    #ff9800
+  );
+
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.login-form button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 8px 20px rgba(255, 61, 0, 0.4);
+}
+
+.login-form a {
+  text-align: center;
+
+  text-decoration: none;
+
+  color: white;
+
+  font-size: 14px;
+
+  transition: 0.3s ease;
+}
+
+.login-form a:hover {
+  color: #ff9800;
+}
+
+.error {
+  color: #ff4d4d;
+
+  text-align: center;
+
+  font-size: 14px;
+}

@@ -1,0 +1,34 @@
+.cast-card {
+  width: 180px;
+  background: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  padding: 10px;
+
+  img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .cast-content {
+    margin-top: 10px;
+
+    h3 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 14px;
+      color: gray;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}

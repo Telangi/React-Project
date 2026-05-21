@@ -1,0 +1,48 @@
+.card {
+  width: 220px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #fff;
+  margin: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Image section
+.card-image {
+  width: 100%;
+  height: 250px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+// Title
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  color: #00bcd4;
+}
+
+// Description
+.card-description {
+  font-size: 14px;
+  padding: 0 10px 10px;
+  color: #ccc;
+}
+
+// Rating
+.card-rating {
+  font-size: 14px;
+  padding: 0 10px 10px;
+  color: #ffd700; // gold color
+}
