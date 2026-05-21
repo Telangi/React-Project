@@ -75,7 +75,7 @@ const MovieDetailsContent = () => {
       </p>
 
       <Button
-        onClick={() => navigate('/')}
+        onClick={() => navigate('/home')}
         title={'Back'}
       />
 
