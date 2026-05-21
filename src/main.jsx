@@ -6,7 +6,7 @@ import "./App.css"
 
 import App from "./App.jsx"
 
-import MovieContextProvider from "./ProjectMovieApp/Context/movieContext"
+import MovieContextProvider from "./ProjectMovieApp/Context/MovieContext"
 
 import {PersonDetailsProvider} from "./ProjectMovieApp/Context/PersonDetailsContext"
 
