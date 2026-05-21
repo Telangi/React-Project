@@ -18,7 +18,7 @@ import MovieDetailsProvider from "./ProjectMovieApp/Context/MovieDetailsContext"
 
 import {PersonDetailsProvider} from "./ProjectMovieApp/Context/PersonDetailsContext";
 
-import {MovieContext} from "./ProjectMovieApp/Context/movieContext";
+import {MovieContext} from "./ProjectMovieApp/Context/MovieContext";
 
 import MyList from "./ProjectMovieApp/Pages/MyList/MyList";
 
