@@ -73,7 +73,7 @@ const App = () => {
         <Route
           path="/"
           element={
-            <Navigate to="/Signup" />
+            <Navigate to="/signup" />
           }
         />
 
