@@ -1,4 +1,4 @@
-import {formatDateToDDMMYYYY} from '../../../utils/formatDate'
+import {formatDateToDDMMYYYY} from '../../../utils/formatdate'
 import './Card.scss'
 
 export const Card = ({children}) => {
