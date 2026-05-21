@@ -12,7 +12,7 @@ import Youtube from 'react-youtube'
 
 import { useMovieDetails } from '../../Context/MovieDetailsContext'
 
-import { formatDateToDDMMYYYY } from '../../utils/formatDate'
+import { formatDateToDDMMYYYY } from '../../utils/formatdate'
 
 import { fetchMovieCast, addToMyList } from '../../api/axios'
 
